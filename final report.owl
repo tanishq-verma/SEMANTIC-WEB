@@ -1,0 +1,1501 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#"
+     xml:base="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw"
+     xmlns:cw="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematographer_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematographer_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematography_by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematography_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematography_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composed_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composer_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composer_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composer_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#created_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#created_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#creator_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#creator_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#creator_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#edited_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#edited_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#editor_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#editor_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_actor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_actor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#starring_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_format -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_format">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_genre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_genre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_language -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_language">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#music_compose_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#music_compose_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#music_compose_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#music_compose_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#produced_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#produced_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#shot_in_country -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#shot_in_country">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#sponsored_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#sponsored_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#sponsoring -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#sponsoring">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#starring_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#starring_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Box_office -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Box_office">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Creative_Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Budget -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Budget">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Release_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Release_date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#birth_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#birth_date">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#birth_place -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#birth_place">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_episodes -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_episodes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_genre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_genre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_seasons -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_seasons">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#names -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#names">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#run_time -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#run_time">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#shooting_place -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#shooting_place">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#summary -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#summary">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Creative_Work"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Creative_Work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Creative_Work"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Formats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Formats"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Language"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Movies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Movies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Creative_Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#TV_series -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#TV_series">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Creative_Work"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#audioFormat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#audioFormat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Formats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#camera -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#camera">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Formats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#channel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#channel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematographer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematographer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#creator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#creator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#editor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#editor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#executiveProducer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#executiveProducer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Formats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#pictureFormat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#pictureFormat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Formats"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#themeMusicComposer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#themeMusicComposer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composers"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Aaron_Korsh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Aaron_Korsh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#creator"/>
+        <creator_of rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1966-11-07</birth_date>
+        <birth_place xml:lang="en">United States</birth_place>
+        <names>Aaron_Korsh</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Amanda_Schull -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Amanda_Schull">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1978-08-26</birth_date>
+        <birth_place xml:lang="en">Hawaii</birth_place>
+        <names>Amanda_Schull</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Channing_Tatum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Channing_Tatum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <producer_of rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Channing_Tatum"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky"/>
+        <birth_date xml:lang="en">1980-04-26</birth_date>
+        <birth_place xml:lang="en">Cullman,Alabama</birth_place>
+        <names>Channing_Tatum</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Christopher_Tyng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Christopher_Tyng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composers"/>
+        <composer_of rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1968-08-05</birth_date>
+        <birth_place xml:lang="en">Long_Beach,_California</birth_place>
+        <names>Christopher_Tyng</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dan_Stoloff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dan_Stoloff">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematographer"/>
+        <cinematographer_of rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_place xml:lang="en">New_York</birth_place>
+        <names>Dan_Stoloff</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dave_Bartis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dave_Bartis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#executiveProducer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producers"/>
+        <producer_of rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dave_Bartis"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Doug_Liman"/>
+        <birth_date xml:lang="en">1987-02-07</birth_date>
+        <birth_place xml:lang="en">Providence, Rhode Island</birth_place>
+        <names>Dave_Bartis</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Doug_Liman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Doug_Liman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#executiveProducer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producers"/>
+        <producer_of rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dave_Bartis"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Doug_Liman"/>
+        <birth_date xml:lang="en">1965-07-24</birth_date>
+        <birth_place xml:lang="en">New_York_City</birth_place>
+        <names>Doug_Liman</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dulé_Hill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dulé_Hill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1975-05-03</birth_date>
+        <birth_place xml:lang="en">Orange,_New_Jersey</birth_place>
+        <names>Dulé_Hill</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dwight_Yoakam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dwight_Yoakam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky"/>
+        <birth_date xml:lang="en">1956-10-23</birth_date>
+        <birth_place xml:lang="en">Kentucky</birth_place>
+        <names>Dwight_Yoakam</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Gabriel_Macht -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Gabriel_Macht">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producers"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1972-01-22</birth_date>
+        <birth_place xml:lang="en">New_York_(state)</birth_place>
+        <names>Gabriel_Macht</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Gina_Torres -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Gina_Torres">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1969-04-25</birth_date>
+        <birth_place xml:lang="en">New_York_City</birth_place>
+        <names>Gina_Torres</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Ima_Robot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Ima_Robot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composers"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#themeMusicComposer"/>
+        <composer_of rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1998</birth_date>
+        <birth_place xml:lang="en">Los Angeles, CA</birth_place>
+        <names>Ima_Robot</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Katherine_Heigl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Katherine_Heigl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1978-11-24</birth_date>
+        <birth_place xml:lang="en">Washington,_D.C.</birth_place>
+        <names>Katherine_Heigl</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Legal_drama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Legal_drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Formats"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Creative_Work"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Movies"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <cinematography_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Peter_Andrews"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Channing_Tatum"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dwight_Yoakam"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Seth_MacFarlane"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Channing_Tatum"/>
+        <Box_office xml:lang="en">48500000</Box_office>
+        <names xml:lang="en">Logan Lucky</names>
+        <run_time xml:lang="en">7140.000000</run_time>
+        <summary xml:lang="en">Logan Lucky is a 2017 American heist comedy film directed by Steven Soderbergh, based on a screenplay credited to Rebecca Blunt. Soderbergh came out of retirement to direct the film and distributed it independently through his own company, Fingerprint Releasing.</summary>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Max_Topplin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Max_Topplin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1989-12-14</birth_date>
+        <birth_place xml:lang="en">Ontario</birth_place>
+        <names>Max_Topplin</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Open_4_Business_Productions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Open_4_Business_Productions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#company"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Patrick_J._Adams -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Patrick_J._Adams">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producers"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1981-08-27</birth_date>
+        <birth_place xml:lang="en">Ontario</birth_place>
+        <names>Patrick_J._Adams</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Peter_Andrews -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Peter_Andrews">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematographer"/>
+        <cinematographer_of rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky"/>
+        <birth_place xml:lang="en">United States</birth_place>
+        <names>Peter_Andrews</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Rick_Hoffman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Rick_Hoffman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1970-06-12</birth_date>
+        <birth_place xml:lang="en">New_York_City</birth_place>
+        <names>Rick_Hoffman</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Sarah_Rafferty -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Sarah_Rafferty">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1972-12-06</birth_date>
+        <birth_place xml:lang="en">New_Canaan,_Connecticut</birth_place>
+        <names>Sarah_Rafferty</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Seth_MacFarlane -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Seth_MacFarlane">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky"/>
+        <birth_date xml:lang="en">1973-10-26</birth_date>
+        <birth_place xml:lang="en">Connecticut</birth_place>
+        <names>Seth_MacFarlane</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Creative_Work"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#TV_series"/>
+        <cinematography_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dan_Stoloff"/>
+        <composed_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Christopher_Tyng"/>
+        <composed_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Ima_Robot"/>
+        <created_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Aaron_Korsh"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Amanda_Schull"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dulé_Hill"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Gabriel_Macht"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Gina_Torres"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Katherine_Heigl"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Max_Topplin"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Patrick_J._Adams"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Rick_Hoffman"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Sarah_Rafferty"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Vanessa_Ray"/>
+        <has_actor rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Meghan,_Duchess_of_Sussex"/>
+        <has_genre rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Legal_drama"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Dave_Bartis"/>
+        <produced_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Doug_Liman"/>
+        <sponsored_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Open_4_Business_Productions"/>
+        <sponsored_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#USA_Network"/>
+        <sponsored_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Universal_Cable_Productions"/>
+        <sponsored_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Universal_Content_Productions"/>
+        <sponsored_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Untitled_Korsh_Company"/>
+        <sponsored_by rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Hypnotic_Films_&amp;_Television"/>
+        <names xml:lang="en">SUITS</names>
+        <run_time xml:lang="en">2520.0</run_time>
+        <summary xml:lang="en">Suits is an American legal drama television series created and written by Aaron Korsh. The series premiered on USA Network on June 23, 2011, and is produced by Universal Cable Productions.</summary>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#USA_Network -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#USA_Network">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#channel"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Universal_Cable_Productions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Universal_Cable_Productions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#company"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Universal_Content_Productions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Universal_Content_Productions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#company"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Untitled_Korsh_Company -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Untitled_Korsh_Company">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#company"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Vanessa_Ray -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Vanessa_Ray">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1981-06-24</birth_date>
+        <birth_place xml:lang="en">Livermore,_California</birth_place>
+        <names>Vanessa_Ray</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Hypnotic_Films_&amp;_Television -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Hypnotic_Films_&amp;_Television">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Media_Rights"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#company"/>
+        <sponsoring rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Meghan,_Duchess_of_Sussex -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Meghan,_Duchess_of_Sussex">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#People"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+        <starring_in rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+        <birth_date xml:lang="en">1981-08-04</birth_date>
+        <birth_place xml:lang="en">Canoga Park, Los Angeles, California, U.S</birth_place>
+        <names>&apos;&apos;Meghan,_Duchess_of_Sussex&apos;&apos;</names>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#l">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All three will be need to work together. A director will need cinematographer and editor.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cine-Direct-Edit</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematographer_of"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#editor_of"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_of"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If a movie or tv series has composer and music compose, then it must have a format</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Composer-musiccomposer-genre</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#composer_of"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#music_compose_of"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_format"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A person director and producer of a film will be both a director and a producer.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prod-direct</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_of"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer_of"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#director"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A director and a producer will be a director and a producer for it.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct-producer</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_of"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer_of"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person directed movie or show will be director of it.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Directorby-director</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_of"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#director"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">if movie or tv show contains producer,director then it must have an actor</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Director-Producer-Actor</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer_of"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_of"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_actor"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">All three are needed to go together. A cast memeber or an actor will need a director and a producer or vise-versa.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prod-Direct-Starring</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#starring_in"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#directed_of"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer_of"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If a movie or tv series has a actor in it, then he/she must be cast_memeber of starring in it.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Actor-works-cast_member</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_actor"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Logan_Lucky"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A producer of a film is a sponsor</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sponsor-producer</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#producer_of"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#s"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#produced_by"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#l"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#sponsoring"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#s"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#l"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person in a movie or tv series will be cast member of it</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">person-castmember</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#starring_in"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Starring in a creative work will be cast member of it.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cast-starring</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#starring_in"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#Suits"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cast_member"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cinematographer and editor has a format</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cine-editor-hasformat</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#cinematographer_of"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#editor_of"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x2"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#has_format"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/tanishq/ontologies/2022/3/cw#x3"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
